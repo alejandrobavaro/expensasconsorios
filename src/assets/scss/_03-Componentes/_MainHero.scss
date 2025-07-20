@@ -1,0 +1,15 @@
+// === MainHero.scss ===
+.mainHero {
+    width: 100%;
+
+    overflow: hidden;
+    box-shadow: 0 2px 40px rgba(0, 247, 255, 0.3);
+  
+    .heroSlide img {
+      width: 100%;
+      max-height: auto;
+      height: auto;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+  }

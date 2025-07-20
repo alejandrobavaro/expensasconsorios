@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "nombre": "Administración ConsorMar",
+    "imagen portada": "/img/08-imagenes-clientes/id01-c1.png",
+    "tipo": "Administración de Consorcios",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "El sistema nos permitió simplificar la gestión y reducir reclamos.",
+    "comentarios": [
+      "Cálculo de expensas automatizado y sin errores.",
+      "Portal de vecinos muy fácil de usar."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id01-1.png",
+      "/img/08-imagenes-clientes/id01-2.png",
+      "/img/08-imagenes-clientes/id01-3.png",
+      "/img/08-imagenes-clientes/id01-4.png"
+    ],
+    "sitio_web": "https://www.consormar.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Consorcio Torre Atlántico",
+    "imagen portada": "/img/08-imagenes-clientes/id02-c2.png",
+    "tipo": "Edificio de Propiedad Horizontal",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Desde que usamos el sistema, todo está más organizado.",
+    "comentarios": [
+      "Los propietarios reciben sus expensas por email.",
+      "Los pagos online funcionan excelente."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id02-1.png",
+      "/img/08-imagenes-clientes/id02-2.png",
+      "/img/08-imagenes-clientes/id02-3.png",
+      "/img/08-imagenes-clientes/id02-4.png"
+    ],
+    "sitio_web": "https://www.torreatlantico.com"
+  },
+  {
+    "id": 3,
+    "nombre": "Edificio Costa Dorada",
+    "imagen portada": "/img/08-imagenes-clientes/id03-c3.png",
+    "tipo": "Consorcio Residencial",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Muy conforme con el sistema, es fácil y práctico.",
+    "comentarios": [
+      "Los informes mensuales son claros.",
+      "Resolvimos rápido el tema de la reserva del SUM."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id03-1.png",
+      "/img/08-imagenes-clientes/id03-2.png",
+      "/img/08-imagenes-clientes/id03-3.png",
+      "/img/08-imagenes-clientes/id03-4.png"
+    ],
+    "sitio_web": "https://www.costadorada.com"
+  },
+  {
+    "id": 4,
+    "nombre": "Gestión Integral Urbana",
+    "imagen portada": "/img/08-imagenes-clientes/id04-c4.png",
+    "tipo": "Administración de Consorcios",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Nos agilizó el trabajo y mejoró la comunicación con los propietarios.",
+    "comentarios": [
+      "La app móvil es muy útil.",
+      "Excelente soporte técnico."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id04-1.png",
+      "/img/08-imagenes-clientes/id04-2.png",
+      "/img/08-imagenes-clientes/id04-3.png",
+      "/img/08-imagenes-clientes/id04-4.png"
+    ],
+    "sitio_web": "https://www.urbanaadmin.com"
+  },
+  {
+    "id": 5,
+    "nombre": "Consorcio Las Lomas",
+    "imagen portada": "/img/08-imagenes-clientes/id05-c5.png",
+    "tipo": "Edificio Residencial",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "El portal de gestión nos dio transparencia y confianza.",
+    "comentarios": [
+      "Todos acceden a la liquidación en línea.",
+      "Nos olvidamos de los papeles y los reclamos."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id05-1.png",
+      "/img/08-imagenes-clientes/id05-2.png",
+      "/img/08-imagenes-clientes/id05-3.png",
+      "/img/08-imagenes-clientes/id05-4.png"
+    ],
+    "sitio_web": "https://www.laslomasconsorcio.com"
+  },
+  {
+    "id": 6,
+    "nombre": "Administración Costamar",
+    "imagen portada": "/img/08-imagenes-clientes/id06-c6.png",
+    "tipo": "Administración de Consorcios",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Excelente plataforma para gestionar edificios grandes.",
+    "comentarios": [
+      "Control total de ingresos y egresos.",
+      "Facilidad en la comunicación con los vecinos."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id06-1.png",
+      "/img/08-imagenes-clientes/id06-2.png",
+      "/img/08-imagenes-clientes/id06-3.png",
+      "/img/08-imagenes-clientes/id06-4.png"
+    ],
+    "sitio_web": "https://www.costamaradmin.com"
+  },
+  {
+    "id": 7,
+    "nombre": "Edificio Mirador del Parque",
+    "imagen portada": "/img/08-imagenes-clientes/id07-c7.png",
+    "tipo": "Consorcio Residencial",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Muy recomendable, el sistema es práctico y accesible.",
+    "comentarios": [
+      "Los vecinos pueden ver los gastos desde su celular.",
+      "Las reservas de espacios comunes se hacen online."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id07-1.png",
+      "/img/08-imagenes-clientes/id07-2.png",
+      "/img/08-imagenes-clientes/id07-3.png",
+      "/img/08-imagenes-clientes/id07-4.png"
+    ],
+    "sitio_web": "https://www.miradordelparque.com"
+  },
+  {
+    "id": 8,
+    "nombre": "Gestión Urbana Plus",
+    "imagen portada": "/img/08-imagenes-clientes/id08-c8.png",
+    "tipo": "Administración Integral de Consorcios",
+    "categoria": "Clientes",
+    "recomendacion del cliente": "Mejoró notablemente la eficiencia administrativa.",
+    "comentarios": [
+      "Sistema completo y fácil de implementar.",
+      "Ideal para administrar varios edificios a la vez."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id08-1.png",
+      "/img/08-imagenes-clientes/id08-2.png",
+      "/img/08-imagenes-clientes/id08-3.png",
+      "/img/08-imagenes-clientes/id08-4.png"
+    ],
+    "sitio_web": "https://www.gestionurbanaplus.com"
+  }
+]

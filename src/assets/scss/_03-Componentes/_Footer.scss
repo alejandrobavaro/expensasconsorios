@@ -1,0 +1,126 @@
+/* Estructura principal */
+.footer-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Contenido del footer */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Columnas del footer */
+.footer-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Estilos para los logos */
+.logo-link {
+  display: inline-block;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.footer-logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Navegación de redes sociales */
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2c3e50;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #3498db;
+  }
+}
+
+.social-icon {
+  font-size: 18px;
+}
+
+/* Divisor */
+.footer-divider {
+  border: none;
+  height: 1px;
+  background-color: #eee;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Copyright y firma */
+.footer-copyright {
+  text-align: center;
+}
+
+.developer-signature {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.developer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #3498db;
+  }
+}
+
+.signature-icon {
+  font-size: 16px;
+  color: #3498db;
+}
+
+/* Media Queries */
+
+/* Tablet (768px) */
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-nav {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+/* Desktop (1024px) */
+@media (min-width: 1024px) {
+  .footer-wrapper {
+    padding: 30px;
+  }
+}

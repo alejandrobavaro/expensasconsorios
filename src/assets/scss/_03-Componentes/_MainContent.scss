@@ -1,0 +1,25 @@
+/*--------------Estilos del Contenido Principal Ultra Compacto--------------*/
+.MainContentContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0; /* Eliminamos todo padding para máxima compresión */
+  
+  /* Layout en columna sin espacios entre componentes */
+  display: flex;
+  flex-direction: column;
+  gap: 0; /* Eliminamos completamente el gap */
+}
+
+/*--------------Breakpoints--------------*/
+@media (min-width: 768px) {
+  .MainContentContainer {
+    padding: 0; /* Mantenemos sin padding en tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .MainContentContainer {
+    padding: 0; /* Mantenemos sin padding en desktop */
+  }
+}

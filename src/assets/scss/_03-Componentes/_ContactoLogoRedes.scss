@@ -1,0 +1,97 @@
+.contacto-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gridPadreContacto1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contact-logo-rede-container {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.logo-column {
+  max-width: 300px;
+  img {
+    width: 100%;
+    max-width: 200px;
+    transition: transform 0.3s;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+
+  .contact-item {
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+
+    &:hover {
+      background: #f0f0f0;
+      color: #0026ff;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: center;
+    }
+  }
+
+  .contact-image-container {
+    margin-top: 20px;
+
+    .contact-image {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+  }
+}
+
+.transparent-hr {
+  border: none;
+  height: 1px;
+  background: rgba(255, 208, 0, 0.7);
+  margin: 30px 0;
+}
+
+@media (min-width: 768px) {
+  .contact-icons .contact-image-container .contact-image {
+    max-height: 300px;
+  }
+}

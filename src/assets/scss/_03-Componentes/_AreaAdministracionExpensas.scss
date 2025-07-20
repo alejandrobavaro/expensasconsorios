@@ -1,0 +1,270 @@
+/* Estructura principal */
+.expensas-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: rgba(245, 245, 245, 0.9);
+  border-radius: 8px;
+}
+
+/* Encabezado */
+.expensas-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+
+  .header-text {
+    margin-bottom: 15px;
+
+    h2 {
+      font-size: 24px;
+      color: #2c3e50;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #7f8c8d;
+    }
+  }
+}
+
+/* Pestañas de navegación */
+.expensas-tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #7f8c8d;
+
+  &:hover {
+    color: #3498db;
+  }
+
+  &.active {
+    color: #3498db;
+    border-bottom-color: #3498db;
+    font-weight: 500;
+  }
+}
+
+/* Formulario para generar expensas */
+.generar-expensas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  label {
+    font-size: 14px;
+    color: #2c3e50;
+    font-weight: 500;
+  }
+}
+
+.form-select {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+  }
+}
+
+/* Botones de acción */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.generate-button, 
+.preview-button,
+.download-button,
+.details-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.generate-button {
+  background-color: #3498db;
+  color: white;
+
+  &:hover {
+    background-color: #2980b9;
+  }
+}
+
+.preview-button {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+
+  &:hover {
+    background-color: #d6eaf8;
+  }
+}
+
+/* Tabla de histórico */
+.historico-expensas {
+  width: 100%;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.expensas-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    color: #2c3e50;
+    font-weight: 500;
+  }
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+/* Badges de estado */
+.status-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.status-badge.cerrado {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-badge.pendiente {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+.status-badge.en-proceso {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+/* Media Queries */
+
+/* Tablet (768px) */
+@media (min-width: 768px) {
+  .expensas-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-text {
+      margin-bottom: 0;
+    }
+  }
+
+  .generar-expensas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .action-buttons {
+    flex-direction: row;
+    grid-column: span 2;
+    justify-content: flex-end;
+  }
+}
+
+/* Desktop (1024px) */
+@media (min-width: 1024px) {
+  .expensas-wrapper {
+    padding: 20px;
+  }
+
+  .generar-expensas {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .action-buttons {
+    grid-column: span 1;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+}
+
+/* Mobile (menor a 600px) */
+@media (max-width: 600px) {
+  .expensas-table {
+    thead {
+      display: none;
+    }
+
+    tr {
+      display: block;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    td {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 10px;
+      text-align: right;
+
+      &[data-label]::before {
+        content: attr(data-label) ": ";
+        font-weight: 600;
+        margin-right: 10px;
+        color: #2c3e50;
+      }
+    }
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

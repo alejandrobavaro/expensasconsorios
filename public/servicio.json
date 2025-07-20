@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "nombre": "Curso de Administración de Consorcios",
+    "imagen portada": "/img/09-imagenes-servicios/id01-1.png",
+    "tipo": "Curso",
+    "categoria": "Administración",
+    "complejidad": "Básica",
+    "precio": "Consultar",
+    "finalizados": 850,
+    "nuestro servicio": [
+      "Curso teórico-práctico para aprender las bases legales, administrativas y operativas de la gestión de consorcios."
+    ],
+    "imagenes": [
+      "/img/09-imagenes-servicios/id01-2.png",
+      "/img/09-imagenes-servicios/id01-3.png",
+      "/img/09-imagenes-servicios/id01-4.png"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Curso de Mantenimiento Edilicio",
+    "imagen portada": "/img/09-imagenes-servicios/id02-1.png",
+    "tipo": "Curso",
+    "categoria": "Mantenimiento",
+    "complejidad": "Intermedia",
+    "precio": "Consultar",
+    "finalizados": 630,
+    "nuestro servicio": [
+      "Capacitación completa sobre el mantenimiento preventivo y correctivo de edificios y espacios comunes."
+    ],
+    "imagenes": [
+      "/img/09-imagenes-servicios/id02-2.png",
+      "/img/09-imagenes-servicios/id02-3.png",
+      "/img/09-imagenes-servicios/id02-4.png"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Curso de Atención al Consorcista",
+    "imagen portada": "/img/09-imagenes-servicios/id03-1.png",
+    "tipo": "Curso",
+    "categoria": "Comunicación",
+    "complejidad": "Básica",
+    "precio": "Consultar",
+    "finalizados": 540,
+    "nuestro servicio": [
+      "Aprendé técnicas efectivas de comunicación y resolución de conflictos con los propietarios e inquilinos."
+    ],
+    "imagenes": [
+      "/img/09-imagenes-servicios/id03-2.png",
+      "/img/09-imagenes-servicios/id03-3.png",
+      "/img/09-imagenes-servicios/id03-4.png"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Curso de Uso del Sistema de Gestión",
+    "imagen portada": "/img/09-imagenes-servicios/id04-1.png",
+    "tipo": "Curso",
+    "categoria": "Sistemas",
+    "complejidad": "Intermedia",
+    "precio": "Consultar",
+    "finalizados": 920,
+    "nuestro servicio": [
+      "Capacitación práctica sobre el uso de nuestro sistema integral para la gestión de consorcios y liquidación de expensas."
+    ],
+    "imagenes": [
+      "/img/09-imagenes-servicios/id04-2.png",
+      "/img/09-imagenes-servicios/id04-3.png",
+      "/img/09-imagenes-servicios/id04-4.png"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Sistema Integral de Administración de Consorcios",
+    "imagen portada": "/img/09-imagenes-servicios/id05-1.png",
+    "tipo": "Sistema",
+    "categoria": "Administración",
+    "complejidad": "Avanzada",
+    "precio": "Consultar",
+    "finalizados": 1100,
+    "nuestro servicio": [
+      "Plataforma online para gestionar expensas, balances, reclamos y documentación del consorcio de forma simple y eficiente."
+    ],
+    "imagenes": [
+      "/img/09-imagenes-servicios/id05-2.png",
+      "/img/09-imagenes-servicios/id05-3.png",
+      "/img/09-imagenes-servicios/id05-4.png"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Curso de Liquidación de Expensas",
+    "imagen portada": "/img/09-imagenes-servicios/id06-1.png",
+    "tipo": "Curso",
+    "categoria": "Administración",
+    "complejidad": "Intermedia",
+    "precio": "Consultar",
+    "finalizados": 780,
+    "nuestro servicio": [
+      "Aprendé a realizar liquidaciones de expensas claras, transparentes y ajustadas a la normativa vigente."
+    ],
+    "imagenes": [
+      "/img/09-imagenes-servicios/id06-2.png",
+      "/img/09-imagenes-servicios/id06-3.png",
+      "/img/09-imagenes-servicios/id06-4.png"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Curso de Excel para Administradores",
+    "imagen portada": "/img/09-imagenes-servicios/id07-1.png",
+    "tipo": "Curso",
+    "categoria": "Tecnología",
+    "complejidad": "Básica",
+    "precio": "Consultar",
+    "finalizados": 1250,
+    "nuestro servicio": [
+      "Curso práctico de Excel enfocado en herramientas útiles para la gestión contable y administrativa de consorcios."
+    ],
+    "imagenes": [
+      "/img/09-imagenes-servicios/id07-2.png",
+      "/img/09-imagenes-servicios/id07-3.png",
+      "/img/09-imagenes-servicios/id07-4.png"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Asesoramiento Contable para Consorcios",
+    "imagen portada": "/img/09-imagenes-servicios/id08-1.png",
+    "tipo": "Servicio",
+    "categoria": "Contabilidad",
+    "complejidad": "Avanzada",
+    "precio": "Consultar",
+    "finalizados": 670,
+    "nuestro servicio": [
+      "Servicio de asesoramiento contable especializado en consorcios: balances, informes y cumplimiento de obligaciones."
+    ],
+    "imagenes": [
+      "/img/09-imagenes-servicios/id08-2.png",
+      "/img/09-imagenes-servicios/id08-3.png",
+      "/img/09-imagenes-servicios/id08-4.png"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Capacitación para Encargados de Edificio",
+    "imagen portada": "/img/09-imagenes-servicios/id09-1.png",
+    "tipo": "Curso",
+    "categoria": "Mantenimiento",
+    "complejidad": "Básica",
+    "precio": "Consultar",
+    "finalizados": 410,
+    "nuestro servicio": [
+      "Curso destinado a encargados y porteros, con formación en mantenimiento, convivencia y resolución de conflictos."
+    ],
+    "imagenes": [
+      "/img/09-imagenes-servicios/id09-2.png",
+      "/img/09-imagenes-servicios/id09-3.png",
+      "/img/09-imagenes-servicios/id09-4.png"
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Auditoría Administrativa de Consorcios",
+    "imagen portada": "/img/09-imagenes-servicios/id10-1.png",
+    "tipo": "Servicio",
+    "categoria": "Control",
+    "complejidad": "Avanzada",
+    "precio": "Consultar",
+    "finalizados": 530,
+    "nuestro servicio": [
+      "Servicio de auditoría externa para verificar el correcto manejo contable y administrativo de consorcios."
+    ],
+    "imagenes": [
+      "/img/09-imagenes-servicios/id10-2.png",
+      "/img/09-imagenes-servicios/id10-3.png",
+      "/img/09-imagenes-servicios/id10-4.png"
+    ]
+  }
+]

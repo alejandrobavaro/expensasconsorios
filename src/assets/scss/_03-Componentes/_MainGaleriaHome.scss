@@ -1,0 +1,62 @@
+// === _MainGaleriaHome.scss ===
+
+/* Contenedor principal */
+.galeria-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.galeria-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* Grilla de imágenes */
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+/* Cada imagen dentro de su contenedor */
+.galeria-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  border-left: 4px solid #3498db;
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+}
+
+/* Media Queries */
+
+/* Tablet (768px) */
+@media (min-width: 768px) {
+  .galeria-container {
+    padding: 30px;
+  }
+
+  .galeria-title {
+    font-size: 28px;
+  }
+}

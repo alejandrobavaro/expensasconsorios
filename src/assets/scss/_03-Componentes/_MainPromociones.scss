@@ -1,0 +1,68 @@
+// === _MainPromociones.scss ===
+
+/* Contenedor principal */
+.promos-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.promos-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* Lista de promociones */
+.promos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Cada promo */
+.promo-item {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+}
+
+/* Nombre de la promo */
+.promo-name {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Detalle de la promo */
+.promo-detail {
+  color: #34495e;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+/* Media Queries */
+
+/* Tablet (768px) */
+@media (min-width: 768px) {
+  .promos-container {
+    padding: 30px;
+  }
+
+  .promos-title {
+    font-size: 28px;
+  }
+}
